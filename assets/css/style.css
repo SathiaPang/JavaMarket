@@ -102,6 +102,12 @@
   z-index: 3;
 }
 
+.shape img{
+  width: 250px;
+  object-fit: cover;
+}
+
+
 /*------------------- Responsive --------------------------*/
 /*
 	@include transition(.4s);
@@ -506,7 +512,7 @@ input:focus::-moz-placeholder {
 
 /* line 230, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_common.scss */
 .btn {
-  background: #2577fd;
+  background: red;
   -moz-user-select: none;
   text-transform: capitalize;
   color: #fff;
@@ -4750,9 +4756,13 @@ input:focus {
 
 /* line 76, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
 .best-product-area .product-man {
-  left: 9%;
+  left: 4%;
   bottom: 0;
   z-index: 1;
+}
+.product-man img{
+  width: 350px;
+  object-fit: cover;
 }
 
 /* line 82, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
