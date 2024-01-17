@@ -4358,7 +4358,7 @@ input:focus {
   font-weight: 500;
   line-height: 1.1;
   text-transform: capitalize;
-  background: #ffce25;
+  background: red;
   padding: 13px 24px;
   border-radius: 30px;
   display: inline-block;
@@ -4950,7 +4950,7 @@ input:focus {
 
 /* line 215, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
 .latest-wrapper .latest-area .latest-caption p {
-  color: #373b41;
+  color: #000000;
   font-size: 20px;
   margin-bottom: 55px;
 }
