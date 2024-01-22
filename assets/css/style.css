@@ -4480,7 +4480,7 @@ input:focus {
 .latest-product-area .single-product .product-img img {
   width: 100%;
   height: 350px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* line 30, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_latest_products.scss */
