@@ -1,0 +1,118 @@
+/* styles.css */
+
+/* Vendor Detail Page Styles */
+
+/* Vendor Information Section */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.section-title {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; 
+}
+
+.vendor-info {
+    margin-bottom: 30px;
+    position: relative;
+    background: url('../vendor/logo/4.jpg') center/cover no-repeat;
+    /* Set your background image */
+    overflow: hidden;
+    height: 300px;
+    /* Set your desired height for the vendor-info row */
+    width: 100%;
+    border-radius: 15px;
+}
+
+.vendor-info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.vendor-info img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.vendor-details {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.vendor-name {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.vendor-contact {
+    margin-bottom: 10px;
+}
+
+.vendor-description {
+    font-size: 16px;
+}
+
+
+.product-item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 400px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.product-item img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product-carousel {
+    margin-top: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+    height: 400px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* Owl Carousel Styles */
+.owl-carousel {
+    display: flex;
+}
+
+.owl-item {
+    width: 100%;
+}
